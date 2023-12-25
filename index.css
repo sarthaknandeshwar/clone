@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+   background-color: black;
+   display:flex ;
+   align-items: center;
+   justify-content: space-evenly;
+   height: 10vh;
+}
+.header a{
+    text-decoration: none;
+    text-align: center;
+    font-size:2rem;
+}
+.header img{
+    height: 5vh;
+
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:33%;
+    height: 10vh;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:33%;
+    height: 20vh;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:33%;
+    height: 10vh;
+}
+.link a{
+    color: white;
+}
+.box1 img{
+    height: 10vh;
+}
+.main{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+}
+.toy1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 33%;
+}
+.toy11{
+    font-size: 20px;
+    color: white;
+}
+.toy12{
+    font-size: 50px;
+    color: white;
+}
+.toy13{
+
+    font-size: 20px;
+    color: red;
+}
+.toy14{
+    font-size: 15px;
+    color: white;
+}
+.toy2{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.toy2 img{
+    height: 70vh;
+    width: 90%;
+}
+.toy3{
+    font-size: 15px;
+    color: white;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.toy3 strong{
+    font-size: 30px;
+}
+.toy3 p{
+    font-size: 20px;
+}
+.footer{
+    background-color: black;
+    height: 10vh;
+    border: 5px solid white;
+    color: white;
+}
+.toy1 img{
+    height: 80vh;
+    width: 40%;
+}
+
